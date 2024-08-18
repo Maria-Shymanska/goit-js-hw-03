@@ -6,7 +6,7 @@ function makeArray(firstArray, secondArray, maxLength) {
     if (newArray.length > maxLength) {
         return newArray.slice(0, maxLength)
     } else {
-        newArray;
+        return newArray;
     }
 }
 
